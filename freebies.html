@@ -1,0 +1,22 @@
+---
+layout: pages
+---
+
+<br>
+<h3 class="text-center" style="font-family: 'museo-sans-rounded';"><i class="fa fa-archive"></i>&nbsp; FREEBIES</h3>
+<br>
+<h4 style="font-family: 'museo-sans-rounded'; line-height:24px; margin-left:18%; margin-right:18%;">
+<ul id="post">
+    {% for post in site.posts %}
+      <li>
+
+        <h4 class="text-left" style="margin:0;">
+          <a href="{{ post.url | prepend: site.baseurl }}" style="color:#333; text-decoration:none;"><i class="fa fa-reply"></i>&nbsp; {{ post.title }}</a>
+        </h4>
+       <h5 class="text-left" style="font-family: 'Raleway'; padding:5px; margin:0;">{{ post.date | date: "%b %-d, %Y" }}</h5>
+      </li>
+      <br>
+    {% endfor %}
+  </ul>
+</h4>
+<br>

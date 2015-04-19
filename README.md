@@ -1,2 +1,3 @@
-# talk2william.github.io
-My Personal Website
+License
+=======
+All directories and their contents are [MIT][http://opensource.org/licenses/MIT] Licensed.

@@ -1,0 +1,113 @@
+body{
+  background:url("Untitled.png"),url("wallhaven-12852.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x:hidden;
+  margin:0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.navbar-head {
+  background-color:#ffffff; /*#4FAAC8;*/
+  border-color:#e7e7e7;
+  margin-bottom:0;
+}
+.navbar-foot {
+  background-color:transparent; /*#4FAAC8;*/
+  border-top-color:#e7e7e7;
+  border-bottom-color:transparent;
+  margin-bottom:0;
+}
+.mine {
+  font-family: 'museo-sans-rounded';
+  padding:12px 12px;
+  border:#333 solid;
+  border-radius:5px;
+  float:right;
+  transition-proverty:background-color,color;
+  transition-duration:0.2s;
+  cursor:pointer;
+}
+.mine:hover {
+  color:#fff;
+  background-color:#333;
+}
+#fmenu {
+ position:fixed;
+ top:0;
+ left:0;
+ margin:0;
+ height:100%;
+ width:100%;
+ z-index:10;
+ background-color:#fff;    /*#E86861*/
+ box-shadow:0 0 8px #000;
+ border-bottom:10px solid #333;
+}
+#fmenu center i{
+ cursor:pointer;
+}
+#fmenu h2 a{
+ color:#333;
+ text-decoration:none;
+}
+
+#logo {
+  height:150%;
+  margin-top:-6px;
+  margin-right:5px;
+}
+#post {
+  list-style:none;
+  padding:0;
+}
+#post li {
+  background-color:rgba(255,255,255,0.8);
+  border-radius:2px;
+  box-shadow:1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+  padding:20px;
+}
+#post li:hover {
+  background-color:rgba(255,255,255,0.9);
+}
+@font-face {
+  font-family: 'oswald';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/oswald.woff);
+}
+@font-face {
+  font-family: 'Eutemia';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/Eutemia.ttf);
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src:url(../fonts/Raleway.woff2);
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/Lobster.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'museo-sans-rounded';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/museosansrounded-900-webfont.ttf);
+}
+::selection {
+  background: #E86861; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #E86861; /* Gecko Browsers */
+}
