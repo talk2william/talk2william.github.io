@@ -9,7 +9,7 @@ Awesome Anxiety is a set of themes which I made to give users a friendly experie
 If you think it needs more improvements then you are free to do so.
 
 It is opensourced and can be found on [github][anxiety] under [BY-NC-SA][cc] license.
-<br/>
+<br/><br/>
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/talk2william/awesome-anxiety/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download talk2william/awesome-anxiety on GitHub">Download</a>
 <!-- Place this tag where you want the button to render. -->

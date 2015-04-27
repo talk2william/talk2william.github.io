@@ -1,7 +1,7 @@
 $("#fmenu").hide();
 $(document).ready(function(){
  
- $(".mine").click(function(){
+ $(".menu").click(function(){
 
     $("#fmenu").animate({height:'toggle'},600,'easeOutBounce');
 

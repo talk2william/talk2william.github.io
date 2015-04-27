@@ -1,5 +1,5 @@
 body{
-  background:url("Untitled.png"),url("wallhaven-12852.jpg") no-repeat center center fixed;
+  background:url("layer.png"),url("bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ body{
   border-bottom-color:transparent;
   margin-bottom:0;
 }
-.mine {
+.menu {
   font-family: 'museo-sans-rounded';
   padding:12px 12px;
   border:#333 solid;
@@ -33,7 +33,7 @@ body{
   transition-duration:0.2s;
   cursor:pointer;
 }
-.mine:hover {
+.menu:hover {
   color:#fff;
   background-color:#333;
 }
@@ -48,6 +48,7 @@ body{
  background-color:#fff;    /*#E86861*/
  box-shadow:0 0 8px #000;
  border-bottom:10px solid #333;
+ overflow-y:auto;
 }
 #fmenu center i{
  cursor:pointer;
